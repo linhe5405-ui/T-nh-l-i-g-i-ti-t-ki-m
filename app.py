@@ -1,7 +1,7 @@
 import streamlit as st
 st.image("logo.jpg")
 # Tiêu đề ứng dụng
-st.title("APP TÍNH TIỀN GỬI TIẾT KIỆM LÂM DƯƠNG LINH EM ĐỀ TÀI 7")
+st.title("APP TÍNH TIỀN GỬI TIẾT KIỆM_ĐỀ TÀI 7_LÂM DƯƠNG LINH EM")
 
 # Nhập dữ liệu
 C = st.number_input(
