@@ -1,11 +1,11 @@
 import streamlit as st
-
+st.image("logo.jpg")
 # Tiêu đề ứng dụng
-st.title("💰 Ứng dụng tính tiền gửi tiết kiệm")
+st.title("APP TÍNH TIỀN GỬI TIẾT KIỆM LÂM DƯƠNG LINH EM ĐỀ TÀI 7")
 
 # Nhập dữ liệu
 C = st.number_input(
-    "Nhập số tiền khách hàng gửi tiết kiệm (triệu đồng)",
+    "Nhập số tiềnhách hàng gửi tiết kiệm (triệu đồng)",
     min_value=0.0,
     value=100.0
 )
